@@ -371,16 +371,15 @@ a {
 }
 
 .about-img-placeholder {
-  width: 250px;
-  height: 250px;
-  background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 6rem;
-  box-shadow: 0 20px 40px rgba(37, 99, 235, 0.3);
+  width: 300px;
+  height: 300px;
+  background: url('../AI.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: var(--border-radius-lg);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  border: 3px solid white;
 }
 
 /* ===== SKILLS SECTION ===== */
