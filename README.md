@@ -50,4 +50,4 @@ Feel free to reach out through the contact form on the website or connect with m
 This project is licensed under the MIT License - feel free to use it as inspiration for your own portfolio!
 
 ---
-Built with ❤️ by RM15LRNG
+Built with ❤️ by Ramesh Maharana

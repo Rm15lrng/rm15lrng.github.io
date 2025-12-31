@@ -95,71 +95,9 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // ===== INTERSECTION OBSERVER FOR ANIMATIONS =====
+// Animations removed for professional appearance
 document.addEventListener('DOMContentLoaded', function() {
-    // Options for the intersection observer
-    const observerOptions = {
-        threshold: 0.1,
-        rootMargin: '0px 0px -50px 0px'
-    };
-
-    // Callback function for intersection observer
-    const observerCallback = (entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('animate-in');
-            }
-        });
-    };
-
-    // Create intersection observer
-    const observer = new IntersectionObserver(observerCallback, observerOptions);
-
-    // Elements to observe
-    const elementsToObserve = document.querySelectorAll(
-        '.skill-category, .project-card, .about-content, .contact-content'
-    );
-
-    elementsToObserve.forEach(element => {
-        observer.observe(element);
-    });
-
-    // Add CSS for animations
-    const style = document.createElement('style');
-    style.textContent = `
-        .skill-category,
-        .project-card,
-        .about-content,
-        .contact-content {
-            opacity: 0;
-            transform: translateY(30px);
-            transition: opacity 0.6s ease, transform 0.6s ease;
-        }
-
-        .skill-category.animate-in,
-        .project-card.animate-in,
-        .about-content.animate-in,
-        .contact-content.animate-in {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        .project-card.animate-in {
-            transition-delay: 0.1s;
-        }
-
-        .skill-category.animate-in:nth-child(2) {
-            transition-delay: 0.2s;
-        }
-
-        .skill-category.animate-in:nth-child(3) {
-            transition-delay: 0.4s;
-        }
-
-        .skill-category.animate-in:nth-child(4) {
-            transition-delay: 0.6s;
-        }
-    `;
-    document.head.appendChild(style);
+    // No animations - keeping content visible immediately
 });
 
 // ===== CONTACT FORM FUNCTIONALITY =====
@@ -273,59 +211,9 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // ===== TYPING EFFECT FOR HERO SECTION =====
+// Typing effect removed for professional appearance
 document.addEventListener('DOMContentLoaded', function() {
-    const heroSubtitle = document.querySelector('.hero-subtitle');
-    if (heroSubtitle) {
-        const texts = [
-            'Technology Enthusiast & Automation Specialist',
-            'DevOps Engineer & Infrastructure Expert',
-            'Full-Stack Developer & Data Analyst',
-            'Problem Solver & Innovation Driver'
-        ];
-        
-        let currentTextIndex = 0;
-        let currentCharIndex = 0;
-        let isDeleting = false;
-        let isPaused = false;
-        
-        function typeEffect() {
-            const currentText = texts[currentTextIndex];
-            
-            if (isPaused) {
-                setTimeout(typeEffect, 2000); // Pause for 2 seconds
-                isPaused = false;
-                return;
-            }
-            
-            if (isDeleting) {
-                heroSubtitle.textContent = currentText.substring(0, currentCharIndex - 1);
-                currentCharIndex--;
-                
-                if (currentCharIndex === 0) {
-                    isDeleting = false;
-                    currentTextIndex = (currentTextIndex + 1) % texts.length;
-                    setTimeout(typeEffect, 500); // Pause before starting new text
-                    return;
-                }
-            } else {
-                heroSubtitle.textContent = currentText.substring(0, currentCharIndex + 1);
-                currentCharIndex++;
-                
-                if (currentCharIndex === currentText.length) {
-                    isDeleting = true;
-                    isPaused = true;
-                    setTimeout(typeEffect, 2000); // Pause at end of text
-                    return;
-                }
-            }
-            
-            const typingSpeed = isDeleting ? 50 : 100;
-            setTimeout(typeEffect, typingSpeed);
-        }
-        
-        // Start typing effect after a short delay
-        setTimeout(typeEffect, 1000);
-    }
+    // Hero subtitle remains static for professional look
 });
 
 // ===== SCROLL TO TOP FUNCTIONALITY =====

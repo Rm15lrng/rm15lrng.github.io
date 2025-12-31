@@ -1,0 +1,109 @@
+
+Professional Summary
+Dynamic Data Solution Architect with 18+ years of experience designing and delivering enterprise-scale data
+platforms in the Banking and Finance industry. Proven expertise in modernizing legacy systems, leading mainframe-to-cloud
+migrations, and implementing high-performance data architectures. Recognized for driving business-critical transformations
+with Databricks, Azure Data Factory, Synapse Analytics, and Snowflake. Adept at leading cross-functional teams, optimizing
+ETL/ELT pipelines, and ensuring regulatory-grade data quality in demanding, fast-paced environments.
+Experience Summary
+➢ AI-Powered Modernization: Leveraged LLMs (GitHub Copilot) to transform Mainframe COBOL → PySpark code
+in Databricks, reducing development effort by 60–70% and accelerating migration timelines. Designed and delivered
+the end-to-end data flow architecture, ensuring scalability, compliance, and high performance
+➢ Cloud Migration Leader: Architected and delivered Mainframe → Databricks migration solutions, enabling
+scalable analytics and significant cost optimization.
+➢ Financial Data Expertise: Managed ODS Data Models for Global Wires Payments, ensuring accuracy, compliance,
+and real-time availability.
+➢ Data Engineering Specialist: Designed data archival strategies, enhanced data quality frameworks, and delivered
+high-throughput ETL pipelines across Azure.
+➢ DevOps & Automation: Built CI/CD pipelines using Azure DevOps, GitHub, GitLab, Jenkins, driving faster
+deployments and consistent delivery.
+➢ Multi-Technology Proficiency: Extensive working experience with Azure and traditional RDBMS (Oracle, SQL
+Server), Hands on with AWS Glue, Snowflake, Cassandra, MongoDB.
+➢ ETL/BI Leadership: Designed and developed Informatica PowerCenter mappings, Informatica PowerExchange
+integrations, and reporting solutions with Power BI, Cognos, SAP BO.
+➢ Big Data & Analytics: Skilled in PySpark, HDFS, Hive, and Spark2, delivering distributed, high-performance
+computation frameworks.
+➢ Scripting & Automation: Automated monitoring of 10K+ Autosys jobs, developed VBA-based dashboards, and
+implemented reusable Python/Unix scripts.
+➢ Certified Cloud Expert: Azure Solutions Architect (AZ-303/304), Azure Data Engineer (DP-203), and Azure Data
+Fundamentals (DP-900).
+Work History
+Role: Mainframe Databricks Migration Solution Architect 
+Roles and Responsibilities:
+• Served as Solution Architect & Delivery Lead, owning the end-to-end design of the data flow architecture, including
+ingestion, transformation and extraction.
+• Leveraged LLM-based code transformation (GitHub Copilot) to accelerate COBOL → PySpark code conversion.
+• Integrated Azure Data Factory, Databricks and ADLS Gen2 for data processing pipelines.
+• Designed and Implemented metadata-driven frameworks.
+• Used CI/CD pipelines (Azure DevOps, GitHub, Jenkins) to automate deployments and improve delivery velocity.
+• Impact: Achieved a 60–70% reduction in development time, faster delivery, and improved accuracy in migration.
+Delivered a reusable modernization framework that can scale across multiple mainframe workloads.
+
+Role: Data Architect:
+Responsibilities:
+• Create New/Enhance Existing Payments Data Model
+• Design Data Archival solution strategy
+• Prepare Data Quality Framework for newly designed ODS for Payments data
+• Data mapping between different types of payment messages to existing data model in ODS
+• Design and Develop new ADF pipeline to ingest on-prem file to ODS
+• Design and Develop new ADF pipelines to generate extract for down-stream consumers
+• Design and develop power-shell scripts for ARM template deployment to higher environment
+• Provide guidance and solution to optimize long running queries/jobs
+• Lead and guide junior resources on ETL(ADF).
+Value Additions: Designed and developed pipeline to track and store utilization of different tables under database. It helped for
+trend analysis on storage utilization and data Archival.
+Role: Azure Data Engineer 
+Responsibilities:
+• Participated in framework Design for data movement/processing from On-premise to Azure ADLS and Synapse.
+• Design and develop pyspark modules for data integration using Azure Data Factory
+• Data processing/ETL using Azure DataBricks with pyspark and loading to Synapse.
+• Design and develop dataflow using ADLS, Azure Data Factory and Azure DataBricks from medium to complex
+• Analyze and debug code to for failed unit test cases
+• Co – ordinate and provide support for System Integration Testing
+• Debug and analyze errors found during System Integration Testing
+Value Additions: Automated Review of Table DDLs using Excel VBA code and Python scripts which saved lot of person hours
+to verify the DDLs.
+Role: ETL Architect/Technical Lead 
+Responsibilities:
+• Designed high level data flow and Data Model to create a DWH from scratch.
+• Lead the project starting from Requirement, Design, testing all the way to deployment to Production including post production warranty support without any defect after Go-Live.
+• Delivering results to the client independently as well as managing team with onshore offshore model with customer satisfaction.
+• Developed Informatica ETL Code with complex requirements.
+• High level and low-level design of new data warehouse and data flow.
+• Designed logical and physical layer for current data warehouse project.
+• Handling and resolving technical issues and challenges for the team.
+• Delivered project with end-to-end solution starting from Requirement analysis, Design to production deployment.
+• Analyzing any bottleneck for Production environment and resolving as part of PROD Support.
+• Continuous improvements to production batch jobs
+• Managing code movement and deployment across various environment using Service now tool
+• Implemented SCD1 and SCD2 for various tables.
+• Prepared Technical design/specification for data Extraction, Transformation and Loading
+• Developed and implemented process improvements with tangible and intangible benefits to the client using Lean Six sigma methodologies.
+Value Additions: Designed and created dash board using MS Power BI to monitor apprx 7000 autosys jobs. Before this automation, Production support/operations team manually used to check status of each jobs through the GUI/Command line interfaces.
+Role: Senior Developer 
+Responsibilities:
+• Designed and developed Informatica ETL Mappings, medium to complex. Successfully tuned informatica workflows causing performance issues.
+• Prod batch Issue identification, analysis and resolution
+• Analyzed Business requirement document, solution requirement document and created high level design document which laid out the steps for Data Extraction, business logic implementation and target load
+• Involved in System integration testing, Performance and User acceptance testing
+• Conducted code review to ensure coadding standard is maintained as per industry standard
+• Responsible for providing development status update to onsite coordinator and higher management
+• Created MS Excel VBA code to convert SQL Server SSIS packages to Informatica mapping (ETL) code
+Role: Developer 
+Responsibilities:
+• Performed different roles starting from Team member to Project Lead
+• Created many SOP (Standard Operating Procedures) for the project
+• Monitoring daily/monthly ETL jobs – error identification and resolution in case of job failure
+• Managing team effectively for efficient delivery and uninterrupted service.
+• Worked as onsite counterpart for the team
+• Conducted Knowledge sharing sessions for both Technical and business processes
+• SAP Business Objects and Cognos report development
+Achievements
+• Certified Lean Six Sigma Green Belt
+• Received Technical Excellence, Beyond Performance, Start of the Month Awards, On The Spot awards
+Education
+Master of Computer Application (MCA) – 2013 | Indira Gandhi National Open University (IGNOU), India
+Bachelor of Science (Chemistry) – 2007 | Berhampur University, India
+Certification
+Microsoft AZ 900, AZ 304, AZ 303, DP-203, AI-102
+Several certifications in Apache Spark, Hive, Python, AWS Essentials from Udemy and cognitiveclass.ai
