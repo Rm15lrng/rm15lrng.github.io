@@ -193,6 +193,11 @@ a {
   width: 100%;
 }
 
+/* External link styling - remove the hover underline animation */
+.nav-link[target="_blank"]::after {
+  display: none;
+}
+
 .nav-toggle {
   display: none;
   flex-direction: column;

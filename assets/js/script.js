@@ -26,13 +26,18 @@ document.addEventListener('DOMContentLoaded', function() {
     // Close mobile menu when clicking on a nav link
     navLinks.forEach(link => {
         link.addEventListener('click', function() {
-            navMenu.classList.remove('active');
+            const href = this.getAttribute('href');
             
-            // Reset hamburger menu
-            const spans = navToggle.querySelectorAll('span');
-            spans[0].style.transform = 'rotate(0) translate(0, 0)';
-            spans[1].style.opacity = '1';
-            spans[2].style.transform = 'rotate(0) translate(0, 0)';
+            // Only close menu for internal links
+            if (!href.startsWith('http') && !href.startsWith('//')) {
+                navMenu.classList.remove('active');
+                
+                // Reset hamburger menu
+                const spans = navToggle.querySelectorAll('span');
+                spans[0].style.transform = 'rotate(0) translate(0, 0)';
+                spans[1].style.opacity = '1';
+                spans[2].style.transform = 'rotate(0) translate(0, 0)';
+            }
         });
     });
 
@@ -79,8 +84,15 @@ document.addEventListener('DOMContentLoaded', function() {
     // Smooth scrolling for nav links
     navLinks.forEach(link => {
         link.addEventListener('click', function(e) {
+            const href = this.getAttribute('href');
+            
+            // Skip external links
+            if (href.startsWith('http') || href.startsWith('//')) {
+                return; // Let the browser handle external links normally
+            }
+            
             e.preventDefault();
-            const targetId = this.getAttribute('href').substring(1);
+            const targetId = href.substring(1);
             const targetSection = document.getElementById(targetId);
             
             if (targetSection) {
